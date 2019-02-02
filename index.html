@@ -4,73 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <title>Eddie Chiang</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/jpg" href="assets/images/Eddie.jpg" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
 
-  <div class="wrapper">
-
-    <div class="nav">
-
-      <header>
-        <h2>Eddie Chiang</h2>
-      </header>
-
-      <div id="idAbout">
-        <a href="index.html">About</a>
-      </div>
-
-      <div id="idPortfolio">
-        <a href="portfolio.html">Portfolio</a>
-      </div>
-
-      <div id="idContact">
-        <a href="contact.html">Contact</a>
-      </div>
-      
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <a class="navbar-brand" href="#">Eddie Chiang</a> -->
+    <img src="assets/images/eddielogo.png" width="200px"/>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="clearfix"></div>
-    <hr>
+  </nav>
 
-  </div>
+
 
   <div class="container">
-   
-
-    <section id="aboutMe">
-      <h1>About Me</h1>
-      <hr>
-      <img src="assets/images/Eddie.jpg" alt="Eddie Chiang" width="150" height="150" id="bio-image">
-      
-      <div class="content">
-        <p>I am a <em>biomedical research scientist</em> and an <em>entrepreneur</em>. My formal training is in
-          vascular biology with expertise in pulmonary medicine. I'm also an executive of a biotech start-up that is
-          commercializing novel technology derived from the academic research, specifically to develop a therapeutic
-          antibody to treat inflammatory lung injury. My expertise is a comprehensive knowledge of top to bottom in
-          various fields such as NIH grant awards and transitioning of novel intellectual properties to early stage
-          therapeutic commercial entities.</p>
-
-        <p>I am currently seeking a career change to become a <strong>Full-Stack Developer</strong> in order to apply
-          my passion for the digital revolution and incorporate my experience where a vast knowledge of all facets of
-          business research and development. With both front-end and back-end web developer skills, I will be
-          familiar with all layers in computer software development make building software much easier and anticipate
-          problems accordingly.</p>
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="page-header">
+          <h1>About Me</h1>
+        </div>
       </div>
-    </section>
-
-    <div class="push"></div>
-
+      <div class="col-sm-4">
+        One of three columns
+      </div>
+    </div>
   </div>
 
 
 
-  <footer class="footer">
-    Copyright &circledR;
-  </footer>
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
 </body>
-
 
 </html>
